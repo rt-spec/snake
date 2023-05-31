@@ -57,7 +57,7 @@ var img = new Image();   // Создаёт новый элемент изобр�
 img.src = 'img/ground.png'; // Устанавливает путь
 
 let  direction= 'left';
-let box = 76;
+let box = 38;
 let food = {
     x : Math.floor(Math.random() * (7)),
     y : Math.floor(Math.random() * (7)),
