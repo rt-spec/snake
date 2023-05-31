@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Snake</title>
+</head>
+<body>
+    <div class="main">
+        <div class="info">
+            <div class="your">
+                <div id = 'yourName'>Ваше имя : </div>
+                <p>Ваши очки: </p>
+                <p id = 'score'></p> 
+            </div>
+            <div class="your">
+                Чемпион: <p id = 'chemp'></p> 
+                <div>Рекорд игры: <p id = 'record'></p> </div>
+            </div>
+        </div>
+       
+        <canvas id="myCanvas" width="608" height="608"></canvas>
+        <div id = 'buttons' class = 'buttons'>
+            <button disabled> </button>
+            <button>up</button>
+            <button disabled> </button>
+            <button>left</button>
+            <button disabled> </button>
+            <button>right</button>
+            <button disabled> </button>
+            <button>down</button>
+            <button disabled> </button>
+        </div>
+    </div>
+    
+    <script src="js/snake.js"></script>
+</body>
+</html>
