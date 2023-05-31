@@ -45,7 +45,6 @@ score.innerHTML = scoree;
 yourname.innerHTML += playerName;
 
 let Storage_size = localStorage.length;
-console.log(localStorage);
 // Если в хранилище уже что-то есть…
 if (Storage_size > 0) {
   // …то достаём оттуда значение рекорда и имя чемпиона
