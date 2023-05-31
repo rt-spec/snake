@@ -1,1 +1,35 @@
+.main{
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    margin: 2% 10%;
+    
+}
+
+
+.info{
+    font-size: 2em;
+    font-weight: center;
+    margin: 1em;
+}
+.your{
+    outline: 1px solid black;
+    padding: 0.2em;
+    margin-bottom: 0.2em;
+}
+p{
+    display: inline;
+}
+
+.buttons{
+    margin: 1em;
+    width: 10%;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+button{
+    height: 3em;
+}
 
